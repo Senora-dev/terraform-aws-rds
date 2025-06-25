@@ -21,7 +21,7 @@ This Terraform module creates RDS instances on AWS with support for multiple dat
 
 ```hcl
 module "mysql" {
-  source = "path/to/terraform-aws-rds"
+  source = "Senora-dev/rds/aws"
 
   identifier = "my-mysql-db"
   engine     = "mysql"
